@@ -12,4 +12,5 @@ case "${1}" in
   ng ) python $PATH_DIR_CURR/beep_ng.py ;;
   ok ) python $PATH_DIR_CURR/beep_ok.py ;;
   ready ) python $PATH_DIR_CURR/beep_ready.py ;;
+  shutdown ) python $PATH_DIR_CURR/beep_shutdown.py ;;
 esac

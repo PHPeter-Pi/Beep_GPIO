@@ -9,15 +9,15 @@ def beep(Hz,pwm):
     pwm.stop()
     time.sleep(0.025)
 
-def sound_ready(pwm):
-    beep(NOTE_C3, pwm)
-    beep(NOTE_D3, pwm)
-    beep(NOTE_E3, pwm)
-    beep(NOTE_F3, pwm)
-    beep(NOTE_G3, pwm)
-    beep(NOTE_A3, pwm)
-    beep(NOTE_B3, pwm)
+def sound_shutdown(pwm):
     beep(NOTE_C4, pwm)
+    beep(NOTE_B3, pwm)
+    beep(NOTE_A3, pwm)
+    beep(NOTE_G3, pwm)
+    beep(NOTE_F3, pwm)
+    beep(NOTE_E3, pwm)
+    beep(NOTE_D3, pwm)
+    beep(NOTE_C3, pwm)
     time.sleep(1)
 
 NUM_PIN = 21

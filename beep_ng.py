@@ -14,11 +14,6 @@ def sound_ng(pwm):
     beep(NOTE_C3, pwm)
     time.sleep(1)
 
-def sound_ok(pwm):
-    beep(NOTE_C4, pwm)
-    beep(NOTE_A3, pwm)
-    time.sleep(1)
-
 NUM_PIN = 21
 TIME_DURATION = 0.3
 TIME_DUTY = 40

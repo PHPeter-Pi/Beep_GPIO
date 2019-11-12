@@ -9,11 +9,6 @@ def beep(Hz,pwm):
     pwm.stop()
     time.sleep(0.025)
 
-def sound_ng(pwm):
-    beep(NOTE_C3, pwm)
-    beep(NOTE_C3, pwm)
-    time.sleep(1)
-
 def sound_ok(pwm):
     beep(NOTE_C4, pwm)
     beep(NOTE_A3, pwm)
