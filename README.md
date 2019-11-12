@@ -20,7 +20,7 @@
 ## 使い方
 
 ```shellsession
-$ # コマンドの clone
+$ # コマンドのソースを clone する（要 apt install git）
 $ cd ~/
 $ git clone https://github.com/PHPeter-Pi/Beep_GPIO.git
 $ cd Beep_GPIO
