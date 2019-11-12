@@ -19,7 +19,7 @@ def sound_ok(pwm):
     beep(NOTE_A3, pwm)
     time.sleep(1)
 
-def sound_rady(pwm):
+def sound_ready(pwm):
     beep(NOTE_C3, pwm)
     beep(NOTE_D3, pwm)
     beep(NOTE_E3, pwm)
