@@ -31,7 +31,7 @@ $ ./beep.sh ng
 $ ./beep.sh ready
 
 $ # シンボリック・リンクの作成
-$ ln -s $(pwd)/beep.sh /usr/local/bin/beep
+$ sudo ln -s $(pwd)/beep.sh /usr/local/bin/beep
 
 $ # 再チェック
 $ beep ok
