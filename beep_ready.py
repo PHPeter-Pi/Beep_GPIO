@@ -47,5 +47,5 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(NUM_PIN, GPIO.OUT, initial = GPIO.LOW)
 
 pwm = GPIO.PWM(NUM_PIN, 1)
-sound_ng(pwm)
+sound_ready(pwm)
 GPIO.cleanup()
