@@ -10,7 +10,7 @@ def beep(Hz,pwm):
     time.sleep(0.025)
 
 def sound_pi(pwm):
-    beep(NOTE_A4, pwm)
+    beep(NOTE_A5, pwm)
     time.sleep(1)
 
 NUM_PIN = 21
