@@ -13,4 +13,5 @@ case "${1}" in
   ok ) python $PATH_DIR_CURR/beep_ok.py ;;
   ready ) python $PATH_DIR_CURR/beep_ready.py ;;
   shutdown ) python $PATH_DIR_CURR/beep_shutdown.py ;;
+  pi ) python $PATH_DIR_CURR/beep_pi.py ;;
 esac

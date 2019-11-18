@@ -9,7 +9,7 @@ def beep(Hz,pwm):
     pwm.stop()
     time.sleep(0.025)
 
-def sound_ok(pwm):
+def sound_pi(pwm):
     beep(NOTE_A4, pwm)
     time.sleep(1)
 
@@ -33,5 +33,5 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(NUM_PIN, GPIO.OUT, initial = GPIO.LOW)
 
 pwm = GPIO.PWM(NUM_PIN, 1)
-sound_ok(pwm)
+sound_pi(pwm)
 GPIO.cleanup()
