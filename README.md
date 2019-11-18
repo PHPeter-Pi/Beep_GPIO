@@ -20,7 +20,7 @@
 ## 使い方
 
 ```shellsession
-$ # コマンドの clone
+$ # コマンドのソースを clone する（要 apt install git）
 $ cd ~/
 $ git clone https://github.com/PHPeter-Pi/Beep_GPIO.git
 $ cd Beep_GPIO
@@ -62,20 +62,18 @@ SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
 BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 
 $ cat /proc/cpuinfo
-processor	: 0
-model name	: ARMv6-compatible processor rev 7 (v6l)
-BogoMIPS	: 697.95
-Features	: half thumb fastmult vfp edsp java tls
-CPU implementer	: 0x41
+processor   : 0
+model name  : ARMv6-compatible processor rev 7 (v6l)
+BogoMIPS    : 697.95
+Features    : half thumb fastmult vfp edsp java tls
+CPU implementer : 0x41
 CPU architecture: 7
-CPU variant	: 0x0
-CPU part	: 0xb76
-CPU revision	: 7
+CPU variant : 0x0
+CPU part    : 0xb76
+CPU revision    : 7
 
-Hardware	: BCM2835
-Revision	: 9000c1
-Serial		: 00000000f4e5809a
-Model		: Raspberry Pi Zero W Rev 1.1
-pi@raspberrypi:~ $ cat /proc/cpuinfo | grep Model
-Model		: Raspberry Pi Zero W Rev 1.1
+Hardware    : BCM2835
+Revision    : 9000c1
+Serial      : 00000000f4e5809a
+Model       : Raspberry Pi Zero W Rev 1.1
 ```
